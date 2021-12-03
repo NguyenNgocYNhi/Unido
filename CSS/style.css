@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+.background {
+  background-image: url(https://images.unsplash.com/photo-1626094309830-abbb0c99da4a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1932&q=80);
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overplay {
+  background-color: rgba(0, 0, 0, 0.199);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.content {
+  width: 600px;
+  text-align: center;
+  z-index: 2;
+}
+.content h1 {
+  font-weight: 1000;
+  font-size: 70px;
+  color: white;
+}
+.content p {
+  color: white;
+}
+.content button {
+  font-family: "Odibee Sans", cursive;
+  color: rgb(255, 255, 255);
+  background-color: rgb(118, 212, 255);
+  border-radius: 6px;
+  border: none;
+  width: 125px;
+  height: 50px;
+  font-size: 30px;
+  margin: 20px;
+}
+
+nav {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  display: flex;
+  z-index: 1;
+}
+
+#logo {
+  width: 30%;
+  display: inline-block;
+}
+#logo img {
+  height: 10vh;
+  margin: 10px 0 0 30px;
+}
+#logo span {
+  font-family: "Monoton", cursive;
+  font-size: 7vh;
+  position: relative;
+  bottom: 1.5vh;
+}
+.head {
+  margin: 0 2vh 0;
+  display: inline-block;
+  position: relative;
+  top: 4.5vh;
+}
+.head span {
+  margin: 0 2vh;
+  font-size: 3vh;
+}
+.head button {
+  font-family: "Odibee Sans", cursive;
+  color: rgb(255, 255, 255);
+  background-color: rgb(118, 212, 255);
+  border-radius: 6px;
+  border: none;
+  width: 80px;
+  height: 40px;
+  font-size: 25px;
+  margin: 0 0 0 10vh;
+}
